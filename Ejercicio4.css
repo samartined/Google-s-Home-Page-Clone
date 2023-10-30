@@ -1,24 +1,76 @@
-html {
-  font-size: 25px;
-}
-
-left-nav {
-  text-align: left;
+body {
+  font-size: 22px;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  width: 100%;
-  height: 50px;
+  border: none;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px;
+  padding: 30px 50px;
 }
 
-li {
-  list-style-type: none;
+.left-nav,
+.right-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
+.left-nav li,
+.right-nav li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.right-nav li {
+  margin-left: 20px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* Quita el color de enlace (normalmente azul) */
+.left-nav li a,
+.right-nav li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Estilo personalizado para el botón Iniciar Sesión */
+.loginButton a {
+  color: black;
+  text-decoration: none;
+}
+
+.big-logo {
+  justify-content: center;
+}
+
+.right-nav {
+  margin-left: auto;
+}
+
+.center-logo u {
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.user-icon:hover {
+  transform: rotate(44deg) scale(1);
+}
+
+.loginButton {
+  background-color: rgb(160, 205, 235);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
