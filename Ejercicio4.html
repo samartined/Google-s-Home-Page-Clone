@@ -2,20 +2,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google HomePage Clon</title>
-    <link rel="stylesheet" href="Ejercicio4.css">
+    <link rel="stylesheet" href="Ejercicio4.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul class="left-nav">
           <li>
-            <a href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
+            <a
+              href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header"
+              >Sobre Google</a
+            >
           </li>
           <li>
-            <a href="https://store.google.com/ES?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES">Tienda</a>
+            <a
+              href="https://store.google.com/ES?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES"
+              >Tienda</a
+            >
           </li>
         </ul>
         <ul class="right-nav">
@@ -26,7 +32,13 @@
             <a href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a>
           </li>
           <li>
-            <img class="user-icon" src="images/hamburguesa-iconos.png" alt="Imágen no disponible">
+            <div class="user-icon-shadow">
+              <img
+                class="user-icon"
+                src="images/hamburguesa-iconos.png"
+                alt="Imágen no disponible"
+              />
+            </div>
           </li>
         </ul>
         <div class="loginButton">
@@ -35,13 +47,20 @@
       </nav>
     </header>
     <div class="big-logo">
-      <img src="Google_files/googlelogo_color_272x92dp.png" alt="">
+      <img src="Google_files/googlelogo_color_272x92dp.png" alt="" />
     </div>
-    <form action="https://www.google.com/search" method="GET" class="search-form">
+    <form
+      action="https://www.google.com/search"
+      method="GET"
+      class="search-form"
+    >
       <div class="search-container">
-        <input type="text" name="q" class="search-input" placeholder="Buscar en Google">
+        <input type="text" name="q" class="search-input" />
         <button type="submit" class="search-button">
-          <img src="images/lupa-busqueda-google.png" alt="Buscar">
+          <img src="images/lupa-busqueda-google.png" alt="Buscar" />
+          <span class="right-icons-searchbar">
+            <img src="images\Google-Noto-Emoji-Objects-62829-keyboard.ico" />
+          </span>
         </button>
       </div>
     </form>
