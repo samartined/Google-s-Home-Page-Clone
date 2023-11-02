@@ -1,47 +1,32 @@
+<!-- FILEPATH: /C:/Users/Edgar/Documents/DAM/UNIVERSAE/Lenguajes de marcas y sistemas de gestión de información/Actividad Práctica U1 y U2/Proyecto clonar página Google/Ejercicio4.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google HomePage Clon</title>
-    <link rel="stylesheet" type="text/css" href="Ejercicio4.css" />
+    <link rel="stylesheet" href="Ejercicio4.css">
   </head>
   <body>
     <header>
       <nav>
         <ul class="left-nav">
           <li>
-            <a
-              href="https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwif04HckKyBAxWwdaQEHfXkDTQQkNQCCAI&url=https%3A%2F%2Fabout.google%2F%3Ffg%3D1%26utm_source%3Dgoogle-ES%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw2ts8t9Xb2nWqGATZBXIpnV&opi=89978449"
-              >Sobre Google</a
-            >
+            <a href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
           </li>
           <li>
-            <a
-              href="https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwif04HckKyBAxWwdaQEHfXkDTQQpMwCCAM&url=https%3A%2F%2Fstore.google.com%2FES%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Des-ES&usg=AOvVaw0Ny9nJjbpvEncq9_-LK9dX&opi=89978449"
-              >Tienda</a
-            >
+            <a href="https://store.google.com/ES?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES">Tienda</a>
           </li>
         </ul>
-        <img
-          class="big-logo"
-          src="Google_files\googlelogo_color_272x92dp.png"
-          alt=""
-        />
-        <ul class="center-logo"></ul>
         <ul class="right-nav">
           <li>
             <a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
           </li>
           <li>
-            <a href="https://mail.google.com/mail/?authuser=0&ogbl">Imágenes</a>
+            <a href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a>
           </li>
           <li>
-            <img
-              class="user-icon"
-              src="images\Captura de pantalla 2023-10-30 222300.png"
-              alt="Imágen no disponible"
-            />
+            <img class="user-icon" src="images/hamburguesa-iconos.png" alt="Imágen no disponible">
           </li>
         </ul>
         <div class="loginButton">
@@ -49,5 +34,16 @@
         </div>
       </nav>
     </header>
+    <div class="big-logo">
+      <img src="Google_files/googlelogo_color_272x92dp.png" alt="">
+    </div>
+    <form action="https://www.google.com/search" method="GET" class="search-form">
+      <div class="search-container">
+        <input type="text" name="q" class="search-input" placeholder="Buscar en Google">
+        <button type="submit" class="search-button">
+          <img src="images/lupa-busqueda-google.png" alt="Buscar">
+        </button>
+      </div>
+    </form>
   </body>
 </html>
