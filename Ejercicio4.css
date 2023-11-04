@@ -131,6 +131,57 @@ nav li a {
   cursor: pointer;
   padding: 5px;
   order: -1;
+<<<<<<< HEAD
+=======
+}
+
+.keyboard-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.keyboard-icons-searchbar img {
+  width: 1.9rem;
+  height: 2.3rem;
+}
+.micro-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.micro-icons-searchbar img {
+  width: 1.3rem;
+  height: 1.8rem;
+}
+
+.lens-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.lens-icons-searchbar img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+/* Subbuttons of searchbar */
+.search-with-Google,
+.get-lucky {
+  display: inline-block;
+  padding: 4rem 4rem;
+}
+
+.centered-block-subbutons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> sub-botones-busqueda
 }
 
 .keyboard-icons-searchbar {
