@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
+  padding: 4rem 4rem;
 }
 
 .left-nav,
@@ -30,13 +30,13 @@ nav {
 }
 
 nav li {
-  margin: 0 20px;
+  margin: 0 2rem;
   list-style: none;
 }
 
 .right-nav li {
-  margin-left: 5px;
-  font-size: 20px;
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
 }
 
 /* Remove link color */
@@ -47,12 +47,12 @@ nav li a {
 
 .right-nav:not(.loginButton a):not(.user-icon img) {
   margin-left: auto;
-  margin-top: 8px;
+  margin-top: 1rem;
 }
 
 /* User icon styles */
 .user-icon {
-  margin-top: -6px;
+  margin-top: -3rem;
 }
 
 /* Apply the shadow when hovering over the image */
@@ -90,7 +90,7 @@ nav li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 4;
 }
 
 .search-container {
@@ -106,14 +106,6 @@ nav li a {
 
 .search-container:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-}
-
-.search-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-  order: -1;
 }
 
 .search-input {
@@ -133,9 +125,46 @@ nav li a {
   filter: opacity(60%);
 }
 
-.keyboard-icon-on-search-button {
-  display: inline-block;
-  margin-right: 10px;
-  text-align: right;
-  order: 1;
+.search-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  order: -1;
 }
+
+.keyboard-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.keyboard-icons-searchbar img {
+  width: 1.9rem;
+  height: 2.3rem;
+}
+.micro-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.micro-icons-searchbar img {
+  width: 1.3rem;
+  height: 1.8rem;
+}
+
+.lens-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.lens-icons-searchbar img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
