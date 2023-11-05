@@ -131,8 +131,41 @@ nav li a {
   cursor: pointer;
   padding: 5px;
   order: -1;
-<<<<<<< HEAD
-=======
+}
+
+.keyboard-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.keyboard-icons-searchbar img {
+  width: 1.9rem;
+  height: 2.3rem;
+}
+.micro-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.micro-icons-searchbar img {
+  width: 1.3rem;
+  height: 1.8rem;
+}
+
+.lens-icons-searchbar {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.lens-icons-searchbar img {
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .keyboard-icons-searchbar {
@@ -174,48 +207,26 @@ nav li a {
 .search-with-Google,
 .get-lucky {
   display: inline-block;
-  padding: 4rem 4rem;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  margin: 3rem 0.45rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
-.centered-block-subbutons {
+.centered-block-subbutons,
+.languages-choices {
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> sub-botones-busqueda
 }
 
-.keyboard-icons-searchbar {
-  border: none;
-  appearance: none;
-  background-color: transparent;
-  margin-right: 1rem;
+.languages-choices a {
+  padding: 0 1rem;
+  text-decoration: none;
 }
-
-.keyboard-icons-searchbar img {
-  width: 1.9rem;
-  height: 2.3rem;
-}
-.micro-icons-searchbar {
-  border: none;
-  appearance: none;
-  background-color: transparent;
-  margin-right: 1rem;
-}
-
-.micro-icons-searchbar img {
-  width: 1.3rem;
-  height: 1.8rem;
-}
-
-.lens-icons-searchbar {
-  border: none;
-  appearance: none;
-  background-color: transparent;
-  margin-right: 1rem;
-}
-
-.lens-icons-searchbar img {
-  width: 2.2rem;
-  height: 2.2rem;
-}
-
